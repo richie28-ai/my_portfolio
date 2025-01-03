@@ -50169,10 +50169,10 @@ $2(a,b){if(this.a>600)return new A.wM(null)
 else return new A.yk(null)},
 $S:318}
 A.wM.prototype={
-U(a){var s=null,r=A.a5j(0,new A.nW(new A.x7(A.bM(204,0,0,0),B.ha),A.a4v("images/bg.png",B.hc),s)),q=A.cK(a,s,t.w).w,p=t.nA
+U(a){var s=null,r=A.a5j(0,new A.nW(new A.x7(A.bM(204,0,0,0),B.ha),A.a4v("assets/images/bg.png",B.hc),s)),q=A.cK(a,s,t.w).w,p=t.nA
 return A.Ap(B.cv,A.a([r,A.RP(s,A.a3x(A.a([A.iy(A.zO(A.a([A.iA("DevTech",s,A.j0().$3$color$fontSize$fontWeight(B.h,32,B.a2),s),A.zO(A.a([A.iA("Projects",s,A.j0().$3$color$fontSize$fontWeight(B.h,20,B.k),s),B.Eu,A.iA("Contact",s,A.j0().$3$color$fontSize$fontWeight(B.h,20,B.k),s)],p),B.np,B.cd,B.bz)],p),B.f0,B.cd,B.bz),s,q.a.a),A.iy(s,20,s),A.iA("Hi, I'M A",s,A.j0().$3$color$fontSize$fontWeight(B.h,20,B.k),s),A.iA("FLUTTER DEVELOPER.",B.fO,A.j0().$4$color$fontSize$fontWeight$letterSpacing(B.h,40,B.a2,-0.9),s),A.iy(s,20,s),A.zO(A.a([A.a_5("PROJECTS",B.nz,B.o),A.iy(s,s,26),A.a_5("CONTACT",B.an,B.h)],p),B.f_,B.f1,B.bz)],p)),s,s,16,16,16,s)],p),B.dK)}}
 A.yk.prototype={
-U(a){var s=null,r=A.a5j(0,new A.nW(new A.x7(A.bM(204,0,0,0),B.ha),A.a4v("images/bg.png",B.hc),s)),q=A.cK(a,s,t.w).w,p=t.nA
+U(a){var s=null,r=A.a5j(0,new A.nW(new A.x7(A.bM(204,0,0,0),B.ha),A.a4v("assets/images/bg.png",B.hc),s)),q=A.cK(a,s,t.w).w,p=t.nA
 return A.Ap(B.cv,A.a([r,A.RP(s,A.a3x(A.a([A.iy(A.zO(A.a([A.iA("DevTech",s,A.j0().$3$color$fontSize$fontWeight(B.h,32,B.a2),s),new A.xE(B.xl,32,B.h,s)],p),B.f0,B.cd,B.bz),s,q.a.a),A.iy(s,20,s),A.iA("Hi, I'M A",s,A.j0().$3$color$fontSize$fontWeight(B.h,20,B.k),s),A.iA("FLUTTER DEVELOPER.",B.fO,A.j0().$4$color$fontSize$fontWeight$letterSpacing(B.h,40,B.a2,-0.9),s),A.iy(s,20,s),A.zO(A.a([A.a_5("PROJECTS",B.nz,B.o),A.iy(s,s,26),A.a_5("CONTACT",B.an,B.h)],p),B.f_,B.f1,B.bz)],p)),s,s,16,16,16,s)],p),B.dK)}}
 A.yq.prototype={
 U(a){var s=null
