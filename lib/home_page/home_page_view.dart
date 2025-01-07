@@ -675,7 +675,7 @@ projectWebContainer(BuildContext context, String imagePath, String name, String 
     // margin: EdgeInsets.only(bottom: 20.0),
     padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0, bottom: 16.0),
     decoration: BoxDecoration(
-      color: Colors.blueGrey,
+      color: Colors.transparent.withOpacity(0.4),
       border: Border.all(
         color: Colors.white,
         width: 2.0,
@@ -689,17 +689,18 @@ projectWebContainer(BuildContext context, String imagePath, String name, String 
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Container(
-            width: MediaQuery.of(context).size.width * 0.2,
+            width: MediaQuery.of(context).size.width * 0.1,
             height: MediaQuery.of(context).size.height * 0.2,
             decoration: BoxDecoration(
+              color: Colors.white,
               shape: BoxShape.circle,
               image: DecorationImage(
                 image: AssetImage(imagePath),
-                fit: BoxFit.contain,
+                fit: BoxFit.scaleDown,
               ),
             ),
           ),
-          heightSpacer(8.0),
+          heightSpacer(18.0),
 
           Text(
             name,
@@ -724,14 +725,14 @@ projectWebContainer(BuildContext context, String imagePath, String name, String 
               overflow: TextOverflow.ellipsis,
               style: GoogleFonts.nunitoSans(
                 color: Colors.white,
-                fontSize: 12.0,
+                fontSize: 14.0,
                 fontWeight: FontWeight.w300,
               ),
               textAlign: TextAlign.start,
               softWrap: true,
             ),
           ),
-          heightSpacer(8.0),
+          heightSpacer(18.0),
 
           GestureDetector(
             onTap: () async {
@@ -769,7 +770,7 @@ projectContainer(BuildContext context, String imagePath, String name, String des
     margin: EdgeInsets.only(bottom: 20.0),
     padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0, bottom: 16.0),
     decoration: BoxDecoration(
-      color: Colors.blueGrey,
+      color: Colors.transparent.withOpacity(0.4),
       border: Border.all(
         color: Colors.white,
         width: 2.0,
@@ -786,6 +787,7 @@ projectContainer(BuildContext context, String imagePath, String name, String des
             width: MediaQuery.of(context).size.width * 0.2,
             height: MediaQuery.of(context).size.height * 0.2,
             decoration: BoxDecoration(
+              color: Colors.white,
               shape: BoxShape.circle,
               image: DecorationImage(
                 image: AssetImage(imagePath),
@@ -793,7 +795,7 @@ projectContainer(BuildContext context, String imagePath, String name, String des
               ),
             ),
           ),
-          heightSpacer(8.0),
+          heightSpacer(18.0),
 
           Text(
             name,
@@ -814,13 +816,13 @@ projectContainer(BuildContext context, String imagePath, String name, String des
             // overflow: TextOverflow.ellipsis,
             style: GoogleFonts.nunitoSans(
               color: Colors.white,
-              fontSize: 12.0,
+              fontSize: 14.0,
               fontWeight: FontWeight.w300,
             ),
             textAlign: TextAlign.start,
             softWrap: true,
           ),
-          heightSpacer(16.0),
+          heightSpacer(18.0),
 
           GestureDetector(
             onTap: () async {
