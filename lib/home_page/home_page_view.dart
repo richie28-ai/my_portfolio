@@ -67,6 +67,13 @@ class _DeskTopViewState extends State<DeskTopView> {
   final GlobalKey _contactWebKey = GlobalKey();
   List<Map<String, dynamic>> projects = [
     {
+      "name":"Outspark",
+      "description": "OutSpark is an AI-driven career enhancement platform offering expert resume makeovers, ATS-friendly enhancements, LinkedIn profile revamps, and a “Post Buddy” tool for strategic content planning—helping professionals across all levels land interviews, boost visibility, and grow their careers.",
+      "image":  "images/outspark.png",
+      "url":'https://play.google.com/store/apps/details?id=com.outspark.career&hl=en',
+      "screenshots":<String> [],
+    },
+    {
       "name":"Times Jobs",
       "description":     "Times Jobs is a leading job search application that connects users with thousands of job listings across various industries. It features personalized job alerts, easy CV uploads, and resources to help users land their dream job.",
       "image":  "images/tj.png",
@@ -235,7 +242,7 @@ class _DeskTopViewState extends State<DeskTopView> {
               heightSpacer(20.0),
               Padding(
                 padding:  EdgeInsets.symmetric(horizontal: 26.0),
-                child: Text("I am a Flutter developer with 3 years of experience, specializing in building high-quality, responsive mobile applications. In addition to my expertise in Flutter, I also have experience designing native XML layouts for Android applications, allowing me to work seamlessly across both native and cross-platform development", style: GoogleFonts.nunitoSans(
+                child: Text("I am a Flutter developer with over 3 years of experience building high-quality, responsive mobile applications. My expertise lies in creating robust, scalable solutions using Flutter, with a strong focus on performance and user experience. In addition to cross-platform development, I have hands-on experience designing native Android layouts using XML, enabling me to collaborate effectively across both native and cross-platform environments.", style: GoogleFonts.nunitoSans(
                   fontSize: 20.0,
                   color: Colors.white,
                   // letterSpacing: -0.9,
@@ -245,7 +252,7 @@ class _DeskTopViewState extends State<DeskTopView> {
               heightSpacer(20.0),
               Padding(
                 padding:  EdgeInsets.symmetric(horizontal: 26.0),
-                child: Text("Below are a few of the projects I’ve worked on, showcasing my ability to deliver functional and polished solutions.", style: GoogleFonts.nunitoSans(
+                child: Text("Here are some of my recent projects that showcase my ability to build clean, scalable, and feature-rich apps.", style: GoogleFonts.nunitoSans(
                   fontSize: 20.0,
                   color: Colors.white,
                   // letterSpacing: -0.9,
@@ -288,16 +295,19 @@ class _DeskTopViewState extends State<DeskTopView> {
                         child: Row(
                           children: List.generate(projects.length, (i) {
                             final project = projects[i];
-                            return Padding(
-                              padding: const EdgeInsets.all(8.0),
+                            return ConstrainedBox(
+                              constraints: BoxConstraints(maxWidth: 400),
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
 
-                              child: projectWebContainer(
-                                context,
-                                project["image"],
-                                project["name"],
-                                project["description"],
-                                project["url"],
-                                (project["screenshots"] as List<dynamic>? ?? []).cast<String>(),
+                                child: projectWebContainer(
+                                  context,
+                                  project["image"],
+                                  project["name"],
+                                  project["description"],
+                                  project["url"],
+                                  (project["screenshots"] as List<dynamic>? ?? []).cast<String>(),
+                                ),
                               ),
                             );
                           }),
@@ -375,6 +385,13 @@ class _MobileViewState extends State<MobileView> {
     Icons.home
   ];
   List<Map<String, dynamic>> projects = [
+    {
+      "name":"Outspark",
+      "description": "OutSpark is an AI-driven career enhancement platform offering expert resume makeovers, ATS-friendly enhancements, LinkedIn profile revamps, and a “Post Buddy” tool for strategic content planning—helping professionals across all levels land interviews, boost visibility, and grow their careers.",
+      "image":  "images/outspark.png",
+      "url":'https://play.google.com/store/apps/details?id=com.outspark.career&hl=en',
+      "screenshots":<String> [],
+    },
     {
       "name":"Times Jobs",
       "description":     "Times Jobs is a leading job search application that connects users with thousands of job listings across various industries. It features personalized job alerts, easy CV uploads, and resources to help users land their dream job.",
