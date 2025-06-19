@@ -229,20 +229,22 @@ class _DeskTopViewState extends State<DeskTopView> {
                   fontSize: 20.0,
                   color: Colors.white,
                 ),
+                  textAlign: TextAlign.center
               ),
               Text(
-                "FLUTTER DEVELOPER.",
+                "FLUTTER DEVELOPER",
                 style: GoogleFonts.nunitoSans(
                   fontSize: 40.0,
                   color: Colors.white,
                   letterSpacing: -0.9,
                   fontWeight: FontWeight.bold,
                 ),
+                  textAlign: TextAlign.center
               ),
               heightSpacer(20.0),
               Padding(
                 padding:  EdgeInsets.symmetric(horizontal: 26.0),
-                child: Text("I am a Flutter developer with over 3 years of experience building high-quality, responsive mobile applications. My expertise lies in creating robust, scalable solutions using Flutter, with a strong focus on performance and user experience. In addition to cross-platform development, I have hands-on experience designing native Android layouts using XML, enabling me to collaborate effectively across both native and cross-platform environments.", style: GoogleFonts.nunitoSans(
+                child: Text("I’m a Flutter developer with 3+ years of experience building robust, cross-platform mobile apps that scale. I write clean, maintainable Dart code and craft beautiful, high-performance UIs using Flutter’s full potential. I’ve worked extensively with Firebase (Auth, Firestore, Cloud Functions), integrated REST APIs, implemented real-time features, and monetized apps with AdMob. I’m comfortable with state management tools like GetX, and I follow best practices in architecture and UI/UX. With a background in native Android (XML), I can bridge cross-platform needs with native precision. I take pride in delivering apps that don’t just work — they feel great to use.", style: GoogleFonts.nunitoSans(
                   fontSize: 20.0,
                   color: Colors.white,
                   // letterSpacing: -0.9,
@@ -522,6 +524,7 @@ class _MobileViewState extends State<MobileView> {
         ),
       ),
       body: Stack(
+
         children: [
           Positioned.fill(
             child: ColorFiltered(
@@ -559,28 +562,36 @@ class _MobileViewState extends State<MobileView> {
                 ),
                 heightSpacer(20.0),
                 // Intro Section
-                Text(
-                  "Hi, I'M A",
-                  style: GoogleFonts.nunitoSans(
-                    fontSize: 20.0,
-                    color: Colors.white,
+                Center(
+                  child: Text(
+                    "Hi, I'M A",
+                    style: GoogleFonts.nunitoSans(
+                      fontSize: 20.0,
+                      color: Colors.white,
+                    ),
+                    textAlign: TextAlign.center,
                   ),
-                  textAlign: TextAlign.center,
                 ),
-                Text(
-                  "FLUTTER DEVELOPER.",
-                  style: GoogleFonts.nunitoSans(
-                    fontSize: 40.0,
-                    color: Colors.white,
-                    letterSpacing: -0.9,
-                    fontWeight: FontWeight.bold,
+                Center(
+                  child: ConstrainedBox(
+                    constraints: BoxConstraints(maxWidth: 600),
+
+                    child: Text(
+                      "FLUTTER DEVELOPER",
+                      style: GoogleFonts.nunitoSans(
+                        fontSize: 40.0,
+                        color: Colors.white,
+                        letterSpacing: -0.9,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
                   ),
-                  textAlign: TextAlign.center,
                 ),
                 heightSpacer(20.0),
                 Padding(
                   padding:  EdgeInsets.symmetric(horizontal: 26.0),
-                  child: Text("I am a Flutter developer with 3 years of experience, specializing in building high-quality, responsive mobile applications. In addition to my expertise in Flutter, I also have experience designing native XML layouts for Android applications, allowing me to work seamlessly across both native and cross-platform development", style: GoogleFonts.nunitoSans(
+                  child: Text("I’m a Flutter developer with 3+ years of experience building robust, cross-platform mobile apps that scale. I write clean, maintainable Dart code and craft beautiful, high-performance UIs using Flutter’s full potential. I’ve worked extensively with Firebase (Auth, Firestore, Cloud Functions), integrated REST APIs, implemented real-time features, and monetized apps with AdMob. I’m comfortable with state management tools like GetX, and I follow best practices in architecture and UI/UX. With a background in native Android (XML), I can bridge cross-platform needs with native precision. I take pride in delivering apps that don’t just work — they feel great to use.", style: GoogleFonts.nunitoSans(
                     fontSize: 20.0,
                     color: Colors.white,
                     letterSpacing: -0.9,

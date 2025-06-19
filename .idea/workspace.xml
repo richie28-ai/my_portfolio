@@ -4,8 +4,98 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16bc0a35-68e4-495d-b736-4887d25d6eb9" name="Changes" comment="href changes">
+    <list default="true" id="16bc0a35-68e4-495d-b736-4887d25d6eb9" name="Changes" comment="new web folder">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/app.dill.deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/dart2js.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/dart2js.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/main.dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/main.dart.js.deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/service_worker.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_entrypoint.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_plugin_registrant.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_release_bundle.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_resources.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_service_worker.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_static_assets.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_templated_files.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/.last_build_id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/AssetManifest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/AssetManifest.bin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/AssetManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/FontManifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/NOTICES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/ask_ai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/emi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/outspark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/prank_pulse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/tj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/images/wordly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/ask_ai/ask_ai_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/ask_ai/ask_ai_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/ask_ai/ask_ai_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/ask_ai/ask_ai_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/ask_ai/ask_ai_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/ask_ai/ask_ai_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/emi_calculator/emi_calc_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/table_clash/table_clash_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/wordly/wordly_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/wordly/wordly_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/wordly/wordly_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/wordly/wordly_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/assets/shaders/ink_sparkle.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/canvaskit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/canvaskit.js.symbols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/canvaskit.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/chromium/canvaskit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/chromium/canvaskit.js.symbols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/chromium/canvaskit.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/skwasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/skwasm.js.symbols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/skwasm.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/flutter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/flutter_bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/flutter_service_worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-maskable-192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-maskable-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/main.dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/home_page/home_page_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home_page/home_page_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/ephemeral/Flutter-Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/ephemeral/Flutter-Generated.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/ephemeral/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/ephemeral/flutter_export_environment.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +108,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="deploy" />
+        <entry key="$PROJECT_DIR$" value="github_deploy" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,11 +147,15 @@
     "git-widget-placeholder": "version__2",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/richasharma/myprojects/my_portfolio_four",
+    "last_opened_file_path": "/home/richasharma/AndroidStudioProjects/my_portfolio",
+    "settings.editor.selected.configurable": "flutter.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -129,7 +223,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750314509701</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new web folder">
+      <option name="closed" value="true" />
+      <created>1750317578150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750317578150</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new web folder">
+      <option name="closed" value="true" />
+      <created>1750321023732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750321023732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,9 +256,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added outspark intro and link" />
     <MESSAGE value="added web folder" />
+    <MESSAGE value="href changes" />
     <MESSAGE value="unversioned" />
     <MESSAGE value="new web folder" />
-    <MESSAGE value="href changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="href changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new web folder" />
   </component>
 </project>
