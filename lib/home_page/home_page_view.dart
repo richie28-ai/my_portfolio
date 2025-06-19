@@ -534,6 +534,8 @@ class _MobileViewState extends State<MobileView> {
           ),
           SingleChildScrollView(
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Padding(
                   padding: const EdgeInsets.all(16.0),
@@ -563,6 +565,7 @@ class _MobileViewState extends State<MobileView> {
                     fontSize: 20.0,
                     color: Colors.white,
                   ),
+                  textAlign: TextAlign.center,
                 ),
                 Text(
                   "FLUTTER DEVELOPER.",
@@ -572,6 +575,7 @@ class _MobileViewState extends State<MobileView> {
                     letterSpacing: -0.9,
                     fontWeight: FontWeight.bold,
                   ),
+                  textAlign: TextAlign.center,
                 ),
                 heightSpacer(20.0),
                 Padding(
@@ -582,6 +586,7 @@ class _MobileViewState extends State<MobileView> {
                     letterSpacing: -0.9,
                     fontWeight: FontWeight.w400,
                   ),textAlign: TextAlign.center,),
+
                 ),
                 heightSpacer(20.0),
                 Padding(
