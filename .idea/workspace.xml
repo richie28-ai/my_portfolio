@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16bc0a35-68e4-495d-b736-4887d25d6eb9" name="Changes" comment="new web folder">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/.filecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/app.dill" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/app.dill.deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/dart2js.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/dart2js.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/flutter_assets.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/gen_localizations.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/main.dart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/main.dart.js.deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/outputs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/service_worker.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_entrypoint.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_plugin_registrant.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_release_bundle.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_resources.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_service_worker.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_static_assets.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/d5ed7e378fde8b17bd880c23dd76c113/web_templated_files.stamp" beforeDir="false" />
+    <list default="true" id="9ed09698-fd3b-4b32-a697-ec6b2944582c" name="Changes" comment="new web folder">
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/.last_build_id" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/assets/AssetManifest.bin" beforeDir="false" />
@@ -70,24 +52,13 @@
       <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/wordly/wordly_3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/assets/screenshots/wordly/wordly_4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/assets/shaders/ink_sparkle.frag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/canvaskit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/canvaskit.js.symbols" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/canvaskit.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/chromium/canvaskit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/chromium/canvaskit.js.symbols" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/chromium/canvaskit.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/skwasm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/skwasm.js.symbols" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/canvaskit/skwasm.wasm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/flutter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/flutter_bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/flutter_bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/flutter_bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/flutter_service_worker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-192.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-maskable-192.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/icons/Icon-maskable-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/web/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/main.dart.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/web/version.json" beforeDir="false" />
@@ -113,22 +84,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;richie28-ai&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "richie28-ai"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/richie28-ai/my_portfolio.git&quot;,
-    &quot;accountId&quot;: &quot;4b60512e-7bf8-474c-aa2c-6ceb249748df&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/richie28-ai/my_portfolio.git",
+    "accountId": "4b60512e-7bf8-474c-aa2c-6ceb249748df"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2x7c4tz38s4MYjkuUrk0HXxhwFW" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2yijAuAyBsaow4zQhgreqXAn8SK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -147,16 +118,13 @@
     "git-widget-placeholder": "version__2",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/richasharma/AndroidStudioProjects/my_portfolio",
-    "settings.editor.selected.configurable": "flutter.settings",
+    "last_opened_file_path": "/home/richasharma/AndroidStudioProjects/my_portfolio_new",
+    "settings.editor.selected.configurable": "MTThemeSelectorConfigurable",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -169,77 +137,29 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="16bc0a35-68e4-495d-b736-4887d25d6eb9" name="Changes" comment="" />
-      <created>1747292364572</created>
+      <changelist id="9ed09698-fd3b-4b32-a697-ec6b2944582c" name="Changes" comment="" />
+      <created>1750324147925</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747292364572</updated>
+      <updated>1750324147925</updated>
     </task>
-    <task id="LOCAL-00001" summary="added outspark intro and link">
+    <task id="LOCAL-00001" summary="new web folder">
       <option name="closed" value="true" />
-      <created>1750250680448</created>
+      <created>1750324250953</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1750250680448</updated>
+      <updated>1750324250953</updated>
     </task>
-    <task id="LOCAL-00002" summary="added web folder">
+    <task id="LOCAL-00002" summary="new web folder">
       <option name="closed" value="true" />
-      <created>1750313231011</created>
+      <created>1750324308691</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1750313231011</updated>
+      <updated>1750324308691</updated>
     </task>
-    <task id="LOCAL-00003" summary="unversioned">
-      <option name="closed" value="true" />
-      <created>1750314334380</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1750314334380</updated>
-    </task>
-    <task id="LOCAL-00004" summary="unversioned">
-      <option name="closed" value="true" />
-      <created>1750314381155</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1750314381155</updated>
-    </task>
-    <task id="LOCAL-00005" summary="new web folder">
-      <option name="closed" value="true" />
-      <created>1750314466773</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1750314466773</updated>
-    </task>
-    <task id="LOCAL-00006" summary="href changes">
-      <option name="closed" value="true" />
-      <created>1750314509701</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1750314509701</updated>
-    </task>
-    <task id="LOCAL-00007" summary="new web folder">
-      <option name="closed" value="true" />
-      <created>1750317578150</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1750317578150</updated>
-    </task>
-    <task id="LOCAL-00008" summary="new web folder">
-      <option name="closed" value="true" />
-      <created>1750321023732</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1750321023732</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,10 +174,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added outspark intro and link" />
-    <MESSAGE value="added web folder" />
-    <MESSAGE value="href changes" />
-    <MESSAGE value="unversioned" />
     <MESSAGE value="new web folder" />
     <option name="LAST_COMMIT_MESSAGE" value="new web folder" />
   </component>

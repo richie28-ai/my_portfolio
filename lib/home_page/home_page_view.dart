@@ -121,7 +121,7 @@ class _DeskTopViewState extends State<DeskTopView> {
     },
     {
       "name": "Table Clash",
-      "description": "Table Clash is an exciting Flutter game that features a web-based table tennis experience with Google Ads integration. It prioritizes user privacy through the UMP SDK, allowing players to opt out of data collection for ads and notifications. Compete with your friends, improve your skills and climb the leaderboard. Enjoy competitive gameplay while maintaining control over your data preferences!",
+      "description": "Table Clash is an exciting Flutter game that features a web-based table tennis experience with Google Ads integration. It prioritizes user privacy through the UMP SDK, allowing players to opt out of data collection for ads and notifications.",
       "image": "images/table.png",
       "url": "",
       "screenshots": [
@@ -442,7 +442,7 @@ class _MobileViewState extends State<MobileView> {
     },
     {
       "name": "Table Clash",
-      "description": "Table Clash is an exciting Flutter game that features a web-based table tennis experience with Google Ads integration. It prioritizes user privacy through the UMP SDK, allowing players to opt out of data collection for ads and notifications. Compete with your friends, improve your skills and climb the leaderboard. Enjoy competitive gameplay while maintaining control over your data preferences!",
+      "description": "Table Clash is an exciting Flutter game that features a web-based table tennis experience with Google Ads integration. It prioritizes user privacy through the UMP SDK, allowing players to opt out of data collection for ads and notifications.",
       "image": "images/table.png",
       "url": "",
       "screenshots": <String>[
@@ -703,97 +703,84 @@ buttons(label,containerColor,textColor){
     ),textAlign: TextAlign.center,),
   );
 }
-projectWebContainer(BuildContext context, String imagePath, String name, String description, String url, List<String> screenshots) {
+Widget projectWebContainer(
+    BuildContext context,
+    String imagePath,
+    String name,
+    String description,
+    String url,
+    List<String> screenshots,
+    ) {
   return Container(
-    // margin: EdgeInsets.only(bottom: 20.0),
-    padding: EdgeInsets.only(left: 16.0, right: 16.0, top: 16.0, bottom: 16.0),
+    width: 380,
+    height: 400,
+    padding: const EdgeInsets.all(16.0),
     decoration: BoxDecoration(
-      color: Colors.transparent.withOpacity(0.4),
-      border: Border.all(
-        color: Colors.white,
-        width: 2.0,
-      ),
+      color: Colors.white.withOpacity(0.1),
+      border: Border.all(color: Colors.white, width: 2.0),
       borderRadius: BorderRadius.circular(20.0),
     ),
-    child: SingleChildScrollView(
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: [
-          Container(
-            width: MediaQuery.of(context).size.width * 0.1,
-            height: MediaQuery.of(context).size.height * 0.2,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
-              image: DecorationImage(
-                image: AssetImage(imagePath),
-                fit: BoxFit.scaleDown,
-              ),
+    child: Column(
+      children: [
+        Container(
+          width: 100,
+          height: 100,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            color: Colors.white,
+            image: DecorationImage(
+              image: AssetImage(imagePath),
+              fit: BoxFit.contain,
             ),
           ),
-          heightSpacer(18.0),
+        ),
+        const SizedBox(height: 12),
 
-          Text(
-            name,
-            maxLines: 4,
-            overflow: TextOverflow.ellipsis,
-            style: GoogleFonts.nunitoSans(
-              color: Colors.white,
-              fontSize: 18.0,
-              fontWeight: FontWeight.w600,
-            ),
-            textAlign: TextAlign.start,
+        Text(
+          name,
+          style: GoogleFonts.nunitoSans(
+            fontSize: 18.0,
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
           ),
-          heightSpacer(8.0),
+          textAlign: TextAlign.center,
+        ),
+        const SizedBox(height: 8),
 
-          ConstrainedBox(
-            constraints: BoxConstraints(
-              maxWidth: MediaQuery.of(context).size.width * 0.3,
-            ),
+        Expanded(
+          child: SingleChildScrollView(
+            physics: BouncingScrollPhysics(),
             child: Text(
               description,
-              maxLines: 4,
-              overflow: TextOverflow.ellipsis,
               style: GoogleFonts.nunitoSans(
-                color: Colors.white,
                 fontSize: 14.0,
+                color: Colors.white.withOpacity(0.9),
                 fontWeight: FontWeight.w300,
               ),
-              textAlign: TextAlign.start,
-              softWrap: true,
+              textAlign: TextAlign.center,
             ),
           ),
-          heightSpacer(18.0),
+        ),
 
-          GestureDetector(
-            onTap: () async {
-              if (url.isNotEmpty) {
-                final uri = Uri.parse(url);
-                try {
-                  if (await canLaunchUrl(uri)) {
-                    await launchUrl(
-                      uri,
-                      mode: LaunchMode.externalApplication,
-                    );
-                  } else {
-                    print('Could not launch $url');
-                  }
-                } catch (e) {
-                  print('Error launching URL: $e');
-                }
-              } else if (screenshots.isNotEmpty) {
-                showDialog(
-                  context: context,
-                  builder: (context) => ImageGalleryDialog(screenshots: screenshots),
-                );
+        const SizedBox(height: 12),
+
+        GestureDetector(
+          onTap: () async {
+            if (url.isNotEmpty) {
+              final uri = Uri.parse(url);
+              if (await canLaunchUrl(uri)) {
+                await launchUrl(uri, mode: LaunchMode.externalApplication);
               }
-            },
-            child: buttons("VIEW", Colors.amber, Colors.black),
-          ),
-        ],
-      ),
+            } else if (screenshots.isNotEmpty) {
+              showDialog(
+                context: context,
+                builder: (_) => ImageGalleryDialog(screenshots: screenshots),
+              );
+            }
+          },
+          child: buttons("VIEW", Colors.amber, Colors.black),
+        ),
+      ],
     ),
   );
 }
@@ -817,11 +804,11 @@ projectContainer(BuildContext context, String imagePath, String name, String des
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Container(
-            width: MediaQuery.of(context).size.width * 0.2,
-            height: MediaQuery.of(context).size.height * 0.2,
+            width: 100,
+            height: 100,
             decoration: BoxDecoration(
-              color: Colors.white,
               shape: BoxShape.circle,
+              color: Colors.white,
               image: DecorationImage(
                 image: AssetImage(imagePath),
                 fit: BoxFit.contain,
@@ -832,8 +819,8 @@ projectContainer(BuildContext context, String imagePath, String name, String des
 
           Text(
             name,
-            maxLines: 4,
-            overflow: TextOverflow.ellipsis,
+            // maxLines: 4,
+            // overflow: TextOverflow.ellipsis,
             style: GoogleFonts.nunitoSans(
               color: Colors.white,
               fontSize: 18.0,
@@ -852,7 +839,7 @@ projectContainer(BuildContext context, String imagePath, String name, String des
               fontSize: 14.0,
               fontWeight: FontWeight.w300,
             ),
-            textAlign: TextAlign.start,
+            textAlign: TextAlign.center,
             softWrap: true,
           ),
           heightSpacer(18.0),
